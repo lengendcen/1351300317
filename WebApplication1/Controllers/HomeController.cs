@@ -41,5 +41,11 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public ActionResult List()
+        {
+            string[] data = new string[] { "台风" };
+            ViewBag.data = data;
+            return View();
+        }
     }
 }
