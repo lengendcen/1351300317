@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using WebApplication1;
 
-namespace News.Controllers
+namespace WebApplication1.Controllers
 {
     public class BlogController : Controller
     {
